@@ -22,4 +22,5 @@ public class SwaggerConfig {
                 .paths(regex("/*.*"))
                 .build();
     }
+
 }
