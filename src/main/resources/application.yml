@@ -4,3 +4,7 @@ server:
 spring:
   application:
     name: pcfpush
+
+amisoft:
+  attendee-service:
+    uri: http://localhost:8003/attendee
