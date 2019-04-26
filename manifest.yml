@@ -1,5 +1,5 @@
 applications:
-- name: pcfpush
+- name: pcfpush_ci
   path: ./target/pcfpush-2.0.0.jar
   disk_quota: 1G
   instances: 1
