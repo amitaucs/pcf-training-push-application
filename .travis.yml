@@ -1,3 +1,5 @@
+install:
+  - bundle install
 deploy:
   provider: cloudfoundry
   api: $CF_API_URL
@@ -6,4 +8,4 @@ deploy:
   organization: $CF_ORG
   space: $CF_SPACE
   manifest: manifest.yml
-  app_name: pccpush_ci
+  app_name: pcfpush_ci
