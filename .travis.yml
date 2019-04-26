@@ -27,7 +27,7 @@ jobs:
       language: bash
       script:
         - echo "Downloading $RELEASE_TAG"
-        - wget -P ./target https://github.com/$GITHUB_USERNAME/pcfpush/releases/download/$RELEASE_TAG/pcfpush-2.0.0.jar
+        - wget -P target https://github.com/$GITHUB_USERNAME/pcfpush/releases/download/$RELEASE_TAG/pcfpush-2.0.0.jar
       before_deploy:
         - echo "Deploying $RELEASE_TAG to Cloud Foundry"
       deploy:
