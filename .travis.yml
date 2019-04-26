@@ -8,4 +8,3 @@ deploy:
   manifest: manifest.yml
   on:
     all_branches: true
-    condition: $TRAVIS_BRANCH =~ ^pcfpuch_CI|master$
