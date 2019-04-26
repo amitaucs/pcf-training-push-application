@@ -1,11 +1,7 @@
-install:
-  - bundle install
 deploy:
   provider: cloudfoundry
-  api: $CF_API_URL
   username: $CF_USERNAME
   password: $CF_PASSWORD
   organization: $CF_ORG
   space: $CF_SPACE
   manifest: manifest.yml
-  app_name: pcfpush_ci
