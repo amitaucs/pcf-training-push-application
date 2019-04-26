@@ -1,3 +1,4 @@
+language: java
 deploy:
   provider: cloudfoundry
   api: $CF_API_URL
