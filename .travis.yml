@@ -1,3 +1,5 @@
+
+language: java
 deploy:
   provider: cloudfoundry
   username: $CF_USERNAME
