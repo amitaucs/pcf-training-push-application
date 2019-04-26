@@ -6,3 +6,6 @@ deploy:
   organization: $CF_ORG
   space: $CF_SPACE
   manifest: manifest.yml
+  on:
+    all_branches: true
+    condition: $TRAVIS_BRANCH =~ ^pcfpuch_CI|master$
